@@ -5,9 +5,9 @@ on:
     branches: 
       - release/**
   push:
-    branches: [ "master" ]
+    branches: [ "master", "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "master", "main" ]
     
 env:
   VERSION: 1.0.0
